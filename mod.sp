@@ -2,7 +2,7 @@ mod "m2" {
   title = "m2"
   requires {
     mod "github.com/kaidaguerre/steampipe-mod-m1"  {
-      version = "^2"
+      version = "v1.*"
     }
   }
 }
