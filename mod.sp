@@ -14,7 +14,7 @@ mod "m2" {
   }
 }
 
-dashboard "d1"{
+dashboard "d2"{
     table {
         sql = "select '${var.v1}' as var_value"
     }
