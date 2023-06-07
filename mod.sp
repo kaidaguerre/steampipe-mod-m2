@@ -8,7 +8,7 @@ variable "v1" {
 mod "m2" {
   title    = "Mod 2"
   require {
-    mod "github.com/kai/steampipe-mod-m3" {
+    mod "github.com/kaidaguerre/steampipe-mod-m3" {
       version = "*"
     }
   }
