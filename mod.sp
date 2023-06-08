@@ -10,6 +10,9 @@ mod "m2" {
   require {
     mod "github.com/kaidaguerre/steampipe-mod-m3" {
       version = "*"
+      args = {
+        v1 = var.v1
+      }
     }
   }
 }
