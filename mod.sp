@@ -6,7 +6,7 @@ variable "v1" {
 
 
 mod "m2" {
-  title    = "Mod 2__"
+  title    = "Mod 2"
   require {
     mod "github.com/kaidaguerre/steampipe-mod-m3" {
       version = "*"
